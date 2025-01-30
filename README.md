@@ -1,3 +1,68 @@
+Job Management System
+
+The Job Management project is a Java-based application designed to efficiently manage job vacancies. It enables job posting, viewing, and management, focusing on optimizing recruitment and selection processes.
+
+Features
+
+Job Posting: Allows adding detailed information about each job, such as title, description, requirements, and location.
+
+Candidate Management (In Development): Will enable candidates to apply and track their applications.
+
+Administration: Section to manage job postings and access application reports.
+
+Integration with External APIs (Planned): Will send email notifications and integrate with platforms like LinkedIn.
+
+Technologies Used
+
+Java: Primary programming language for the application.
+
+Spring Boot: Framework to facilitate backend development.
+
+PostgreSQL: Relational database for data storage.
+
+Docker: Used for containerization and deployment.
+
+Project Structure
+
+project-folder/
+│-- src/main/        # Main project code (controllers, services, models)
+│-- src/test/        # Unit tests for system validation
+│-- docker-compose.yml  # Configuration file for container execution
+│-- application.yml  # Spring Boot configuration (database connection settings)
+
+How to Run
+
+Prerequisites
+
+Docker installed on your machine.
+
+A configured development environment (IntelliJ IDEA or VS Code recommended).
+
+Steps
+
+# Clone the repository
+git clone https://github.com/nicksvalle/gestao_vagas.git
+cd gestao_vagas
+
+# Start the containers with Docker Compose
+docker-compose up -d
+
+Access the API Documentation in Swagger
+
+Open your browser and paste the following link:
+
+http://localhost:8080/swagger-ui/index.html
+
+Contribution
+
+Contributions are welcome! Feel free to open an issue or submit a pull request with improvements or new ideas.
+
+Contact
+
+📧 nicolasdeoliveiravalle@gmail.com🔗 LinkedIn - Nicolas Valle
+
+
+
 # Gestão de Vagas
 
 O projeto **Gestão de Vagas** é uma aplicação desenvolvida em Java com o objetivo de gerenciar vagas de emprego de maneira eficiente. Ele permite o cadastro, a visualização e o gerenciamento de vagas, com foco em otimizar os processos de recrutamento e seleção.
